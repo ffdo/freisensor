@@ -1,6 +1,6 @@
 # Component makefile for COAP
 
-COAP_DIR = coap
+COAP_DIR = $(ROOT)coap
 INC_DIRS += $(COAP_DIR)
 
 # args for passing into compile rule generation
